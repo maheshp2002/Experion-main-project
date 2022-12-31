@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+
+.parent{
+    background-color: rgba(240, 248, 255, 0.142);    
+}
+
+.container{
+    width: 100vw;
+    height: 90vh;
+    color: #2e2e2e;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.img{
+    margin-left: auto;
+    position: absolute;
+    align-items: flex-end;
+} */
+
+.containerBack{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+.flexColumn{
+    flex-direction: column;
+}
+
+.input{
+    align-items: center;
+    margin-left: auto;
+    color: #2e2e2e;
+}
+
+.signupButton{
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgb(105, 255, 203);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    /* background-image: url('asssets/image/cab.jpeg'); */
+}
+
+.top{
+    width: 93vw;
+    height: 50px;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 50px 0px 50px;
+    justify-content: space-between;
+}
+
+span{
+    color: #989898;
+}
+
+#login{
+    /* color: #2e2e2e; */
+    color: #989898;
+    text-decoration: none;
+}
+
+#signup{
+    color: white;
+    text-decoration: none;
+}

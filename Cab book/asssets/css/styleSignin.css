@@ -1,0 +1,177 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/cab-management-2f698.appspot.com/o/logback2.jpg?alt=media&token=5d14fbb4-d08c-4573-a72d-2ecedb712b75');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.mainContainer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.274);
+    border-radius: 25px;
+    height: 400px;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.505);
+}
+
+.imageContainer{
+    display: flex;
+    height: 400px;
+}
+
+img{
+    border-radius: 10%;
+    object-fit: fill;
+    /* opacity: 0.7; */
+}
+
+.parent:hover{
+    transform: scale(1.1);
+}
+
+.parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+    margin: auto;
+}
+
+.loginTextfield{
+    height: 100px;
+    padding: 40px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.a
+{
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+.a:hover
+{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px;
+}
+.a::before
+{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c70;
+}
+.a span
+{
+    position: relative;
+    z-index: 1;
+}
+.a i
+{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+.a i::before
+{
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #27282c79;
+    transform: translateX(-50%);
+    transition: 0,5s;
+}
+.a:hover i::before
+{
+    width: 20px;
+    left: 20%;
+}
+.a i::after
+{
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #27282c75;
+    transform: translateX(-50%);
+    transition: 0,5s;
+}
+.a:hover i::after
+{
+    width: 20px;
+    left: 80%;
+}
+.span {
+    color: #0dca41;
+}
+
+label{
+    color: white;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+.spanTitle{
+    color: #989898;
+    font-size: 25px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.forgot{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #b7b6b6;
+    font-size: 11px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.forgot:hover{
+    letter-spacing: 0.1px;
+}
+
+.signupButton{
+    margin-left: auto;
+    color: #b7b6b6;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+header{
+    height: 70px;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.signupButton>a{
+    color: #b7b6b6;
+    text-decoration: none;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.signupButton>a:hover{
+    letter-spacing: 0.1em;
+}
