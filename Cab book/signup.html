@@ -8,45 +8,49 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="parent">
+    <div class="parent flex">
     <div class="top flex">
             <span>Cab booking</span>  
             <a href="#" class="font" id="login">Login</a>  
     </div>
-    <div class="container flex">
+    <!-- <div class="container flex"> -->
         <div class="containerBack flex">
             <table>
                 <tbody>
                     <tr>
                         <td>
-                            <label for="username"> UserName:
-                            </td> 
-                        <td>
-                            <input id="username" type="text">
-                        </td>                     
+                            <label for="FirstName"> First-Name:
+                        </td> 
+                        <td colspan="3">
+                            <input id="FirstName" type="text" class="name">
+                            <label for="lastName"> Last-Name:
+                            <input id="lastName" type="text" class="name">
+                        </td>    
+                        <!-- <td>
+                        </td>                    -->
                     </tr>
                     <tr>
                         <td>
                             <label for="email"> Email:
-                            </td> 
-                            <td>
-                                <input id="email" type="email">
-                            </td>                     
-                        </tr>
-                        <tr>
+                        </td> 
+                        <td>
+                            <input id="email" type="email" class="input">
+                        </td>                     
+                    </tr>
+                    <tr>
                         <td>
                             <label for="password"> Password:
-                            </td> 
-                            <td>
-                                <input id="password" type="password">
-                            </td>                     
-                        </tr>
+                        </td> 
+                        <td>
+                            <input id="password" type="password" class="input">
+                        </td>                     
+                    </tr>
                         <tr>
                         <td>
                             <label for="confirmPassword"> Confirm password:
-                            </td> 
+                        </td> 
                         <td>
-                            <input id="confirmPassword" type="password">
+                            <input id="confirmPassword" type="password" class="input">
                         </td>                     
                     </tr>
                 </tbody>
@@ -55,9 +59,10 @@
                 <a href="#" id="signup">SignUp</a>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
+    <!-- <div class="vertical"></div> -->
     <div class="img flex">
-        <img src="asssets/image/registerImg.png" width="500px" height="700px">
+        <img src="asssets/image/registerImg.png" width="600px" height="600px">
     </div> 
 </div>
 </body>
